@@ -11,8 +11,7 @@
     "compile": "tsc",
     "preview": "vite preview",
     "prepare": "husky install",
-    "deploy": "gh-pages -d dist",
-    "build-prod": "tsc --skipLibCheck && vite build --mode production"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
